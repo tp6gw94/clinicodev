@@ -14,11 +14,11 @@ const formSchema = z.object({
 export const usePolicyholder = ({ code }: { code?: string }) => {
   const navigate = useNavigate();
 
-  const [searchTopNode, setSearchTopNode] = useState<undefined | string>();
-
   const queryPolicyholders = useQueryPolicyholders(code, {
     enabled: !!code,
   });
+
+  const [searchTopNode, setSearchTopNode] = useState<undefined | string>();
   const queryTopPolicyholders = useQueryTopPolicyholders(searchTopNode, {
     enabled: !!searchTopNode,
   });

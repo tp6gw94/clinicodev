@@ -1,4 +1,4 @@
-import { FC } from "react";
+import type { FC } from "react";
 
 import PolicyholderCard from "#/modules/Policyholder/PolicyholderCard";
 import NodeLinkLine from "#/modules/Policyholder/PolicyholderTree/NodeLinkLine.tsx";

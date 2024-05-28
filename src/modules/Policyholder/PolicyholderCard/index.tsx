@@ -1,8 +1,6 @@
-import "#/modules/Policyholder/PolicyholderCard/index.css";
-
 import { Link } from "@tanstack/react-router";
 import clsx from "clsx";
-import { FC } from "react";
+import type { FC } from "react";
 
 import { Policyholder } from "#/types/Policyholder";
 
